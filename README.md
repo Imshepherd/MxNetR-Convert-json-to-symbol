@@ -1,6 +1,6 @@
 # MxNet-Conver-json-to-symbol
 ## Convert network written in json format to mxnet symbol code
- If you have a pretrained model in mxnet format. Doing the Fine-tune with Pretrained Models works. 
+ If you have a pretrained model in mxnet format. Doing the Fine-tune with Pretrained Models work. 
  
  You can use the example code below directly in the R console.
  
