@@ -26,7 +26,7 @@
  ## When you want to use specific layers or 
  ## Changing some specific layers architecture in pre-train model.
  
- You may rewrite the hole Net.
+ You may rewrite the whole Net.
  
  Or you may use function in ['1. LeNet/3. convert json to symbol.R'](https://github.com/Imshepherd/MxNet-Conver-json-to-symbol/blob/master/1.%20LeNet/3.%20convert%20json%20to%20symbol.R), converting json files to R code for the example of LeNet.
  
