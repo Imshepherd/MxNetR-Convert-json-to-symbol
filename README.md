@@ -23,6 +23,9 @@
  
  Using symbol.get_internals to get the internal parts, can only get symbol from start.
  
- ## when you want to use specific layers or change some specific layers architecture in pre-train model.
+ ## when you want to use specific layers or 
+ ## change some specific layers architecture in pre-train model.
  
+ You may rewrite the hole Net.
+ Or you may use function in 
  
