@@ -20,7 +20,8 @@
   mx.exec.update.aux.arrays(executor, Dense_model$aux.params, match.name = TRUE)
 ```
  And run the executor by other mxnet function
- Using symbol.get_internals to get the internal parts, only can get symbol from start.
+ 
+ Using symbol.get_internals to get the internal parts, can only get symbol from start.
  
  ## when you want to use specific layers or change some specific layers architecture in pre-train model.
  
