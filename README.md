@@ -23,16 +23,18 @@
  
  Using symbol.get_internals to get the internal parts, can only get symbol from start.
  
- ## when you want to use specific layers or 
- ## change some specific layers architecture in pre-train model.
+ ## When you want to use specific layers or 
+ ## Changing some specific layers architecture in pre-train model.
  
  You may rewrite the hole Net.
  
  Or you may use function in ['1. LeNet/3. convert json to symbol.R'](https://github.com/Imshepherd/MxNet-Conver-json-to-symbol/blob/master/1.%20LeNet/3.%20convert%20json%20to%20symbol.R), converting json files to R code for the example of LeNet.
  
- Also, there is an example of DesNet. The example code in here['1. LeNet/3. convert json to symbol.R'](https://github.com/Imshepherd/MxNet-Conver-json-to-symbol/blob/master/2.%20DesNet/1.%20convert%20json%20to%20symbol.R)
+ Also, there is an example of DesNet. 
  
- Pre-Train DesNet model is downloading from
- - [MxNetR](https://mxnet.incubator.apache.org/)
+ The example code in here['1. LeNet/3. convert json to symbol.R'](https://github.com/Imshepherd/MxNet-Conver-json-to-symbol/blob/master/2.%20DesNet/1.%20convert%20json%20to%20symbol.R)
+ 
+ Pre-Train densenet model is downloading from
+ - [densenet](https://github.com/bruinxiong/densenet.mxnet)
  
 
