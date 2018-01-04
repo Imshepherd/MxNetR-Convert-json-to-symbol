@@ -29,6 +29,7 @@ Symbol.List = list(
 Create.Symbol.data = function(){
   return(paste0("data = mx.symbol.Variable(name = 'data')", "\n"))
 }
+
 Create.Symbol.Convolution = function(LIST){
   
   parameter = paste0(names(LIST$attr), " = ", paste0('"', LIST$attr, '"'))
@@ -68,6 +69,7 @@ Create.Symbol.Convolution = function(LIST){
   
   return(TEXT)
 }
+
 Create.Symbol.Activation = function(LIST){
   
   parameter = paste0(names(LIST$attr), " = ", paste0('"', LIST$attr, '"'))
@@ -107,6 +109,7 @@ Create.Symbol.Activation = function(LIST){
   
   return(TEXT)
 }
+
 Create.Symbol.Pooling = function(LIST){
   
   parameter = paste0(names(LIST$attr), " = ", paste0('"', LIST$attr, '"'))
@@ -146,6 +149,7 @@ Create.Symbol.Pooling = function(LIST){
   
   return(TEXT)
 }
+
 Create.Symbol.Flatten = function(LIST){
   
   parameter = paste0(names(LIST$attr), " = ", paste0('"', LIST$attr, '"')) #############171230
@@ -186,6 +190,7 @@ Create.Symbol.Flatten = function(LIST){
   
   return(TEXT)
 }
+
 Create.Symbol.FullyConnected = function(LIST){
   
   parameter = paste0(names(LIST$attr), " = ", paste0('"', LIST$attr, '"')) #############171230
@@ -226,6 +231,7 @@ Create.Symbol.FullyConnected = function(LIST){
   
   return(TEXT)
 }
+
 Create.Symbol.SoftmaxOutput = function(LIST){
   parameter = paste0(names(LIST$attr), " = ", paste0('"', LIST$attr, '"')) #############171230
   if (length(parameter) > 5){
