@@ -1,4 +1,4 @@
-# MxNet Conver json to symbol
+# MxNet Convert json to symbol
 ## Convert network written in json format to mxnet symbol code
  If you have a pretrained model in mxnet format. Doing the Fine-tune with Pretrained Models work. 
  
