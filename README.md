@@ -3,6 +3,7 @@
  If you have a pretrained model in mxnet format. Doing the Fine-tune with Pretrained Models works. 
  
  You can use the example code below directly in the R console.
+ 
  For example for the DesNet.
  
 ```r
