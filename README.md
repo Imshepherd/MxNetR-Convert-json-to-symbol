@@ -13,6 +13,7 @@
   relu1_output = which(all_layers$outputs == 'relu1_output') %>% all_layers$get.output()
   softmax_output = which(all_layers$outputs == 'softmax_output') %>% all_layers$get.output()
   
+  out = mx.symbol.Group(c(relu1_output, softmax_output))
   executor = mx.simple.bind(symbol = out, data = c(224, 224, 3, 1), ctx = mx.cpu())
   
   mx.exec.update.arg.arrays(executor, Dense_model$arg.params, match.name = TRUE)
