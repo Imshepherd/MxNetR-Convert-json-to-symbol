@@ -19,7 +19,7 @@
   mx.exec.update.arg.arrays(executor, Dense_model$arg.params, match.name = TRUE)
   mx.exec.update.aux.arrays(executor, Dense_model$aux.params, match.name = TRUE)
 ```
- And run the executor by other mxnet function
+ And run the executor by other mxnet function.
  
  Using symbol.get_internals to get the internal parts, can only get symbol from start.
  
