@@ -1,8 +1,8 @@
 # MxNet Convert json to symbol
 ## Convert network written in json format to mxnet symbol code
  If you have a pretrained model in mxnet *.json format. 
- Using the Fine-tuning strategy to transfer learned recognition capabilities 
- from general domains to the specific challe . 
+ Using the Fine-tuning strategy to transfer learned 
+ recognition capabilities from general domains to the specific challe . 
  
  You can use the example code below directly in the R console.
  
